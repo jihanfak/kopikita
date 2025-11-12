@@ -1,0 +1,73 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    background-color: rgb(224, 255, 255);
+    color: rgb(12, 59, 105);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(82, 103, 148);
+    padding: 15px 30px;
+}
+.logo {
+    color: lavender;
+    font-size: 1,5em;
+    margin: 0;
+}
+.nav-link {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+.nav-link a {
+    color: lavender;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-link a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: rgb(204, 238, 238);
+}
+footer {
+    background-color: rgb(107, 149, 190);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu {
+    padding: 40px 20px;
+    text-align: center;
+}
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.menu-card {
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0,3);
+}
+.menu-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.menu-card h3 {
+    margin: 10px 0 5px 0;
+}
+.menu-card p {
+    color: rgb(22, 33, 66);
+}
